@@ -18,6 +18,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 ul {
@@ -31,4 +32,51 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    background-color: #1F2937;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image img {
+    height: 250px;
+    width: 500px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+}
+
+.signup {
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+    cursor: pointer;
 }
