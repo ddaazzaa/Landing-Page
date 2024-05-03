@@ -38,7 +38,7 @@ a {
     background-color: #1F2937;
     padding: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .left-side {
@@ -79,4 +79,57 @@ a {
     color: #F9FAF8;
     font-weight: bold;
     cursor: pointer;
+}
+
+.random {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+}
+
+.photos img {
+    border: #3882F6 solid;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    max-width: 200px;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #DDDDDD;
+    padding: 100px;
+}
+
+.inspiring {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
